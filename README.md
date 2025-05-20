@@ -38,9 +38,9 @@ src
 git clone https://github.com/your-username/springboot-crud.git
 cd springboot-crud
 
-Open in your IDE (IntelliJ, Eclipse, VS Code)
+### 2.Open in your IDE (IntelliJ, Eclipse, VS Code)
 
-Configure the database
+### 3.Configure the database
 
 spring.application.name=Springboot_Crud
 
@@ -54,4 +54,15 @@ spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
 
 #spring.jpa.show-sql=true
 spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql :true 
+spring.jpa.show-sql :true
+
+Sample JSON Payload
+
+Create Employee
+
+json
+{
+  "name": "Anurag",
+  "email": "anurag@gmail.com",
+  "position": "Software Engineer"
+}
